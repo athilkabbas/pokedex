@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PokeDex</title>
+	<link rel="stylesheet" type="text/css" href="./css/main.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+	<div id= "pokemonContainerId">
+	</div>
+<div class="center">
+	<div class="pagination">
+	  <div id=pagesId>
+	  	<a href="#" id="pageI_0">1</a>
+	  </div>		
+	</div>
+</div>
+ <div id="id01" class="w3-modal">
+    <div class="w3-modal-content w3-animate-zoom w3-card-4">
+      <header id="headerId" class="w3-container"> 
+        <span onclick="document.getElementById('id01').style.display='none'" 
+        class="w3-button w3-display-topright">&times;</span>
+        <h2 id="pokemonNameId"></h2>
+      </header>
+      <div class="w3-container">
+        <div id="abilitiesId">
+        </div>
+        <div id="typesId">
+        </div>
+        <div id="movesId">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="./js/pokemon.js"></script>
+<script src="./js/pokemonContainer.js"></script>
+<script src="./js/main.js"></script>
+</body>
+</html>
